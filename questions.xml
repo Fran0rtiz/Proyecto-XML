@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) "no">
+]>
+<test>
+  <question id="1">
+    <wording>In which municipality is the pilgrimage of El Rocío celebrated?</wording>
+    <choices>
+      <choice correct="yes">Almonte</choice>
+      <choice>Huelva</choice>
+      <choice>Seville</choice>
+      <choice>El Rocío</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>On which day is the pilgrimage of El Rocío usually held?</wording>
+    <choices>
+      <choice>Good Friday</choice>
+      <choice correct="yes">Pentecost Sunday</choice>
+      <choice>November 1st</choice>
+      <choice>Palm Sunday</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>What is the popular name for the Virgin of El Rocío?</wording>
+    <choices>
+      <choice>Virgin of the Way</choice>
+      <choice>Virgin of the Sea</choice>
+      <choice correct="yes">The White Dove</choice>
+      <choice>The Star</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>Which brotherhood traditionally performs the "jump over the gate"?</wording>
+    <choices>
+      <choice>Triana</choice>
+      <choice correct="yes">Almonte</choice>
+      <choice>Huelva</choice>
+      <choice>Gines</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>What was the original name of the village where the sanctuary is located?</wording>
+    <choices>
+      <choice>La Cañada</choice>
+      <choice>Monteverde</choice>
+      <choice correct="yes">Las Rocinas</choice>
+      <choice>La Palma</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>What does the word “romería” mean?</wording>
+    <choices>
+      <choice>Local festivity</choice>
+      <choice>Path to Rome</choice>
+      <choice correct="yes">Religious pilgrimage</choice>
+      <choice>Spring celebration</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>When was the Virgin of El Rocío canonically crowned?</wording>
+    <choices>
+      <choice correct="yes">1919</choice>
+      <choice>1890</choice>
+      <choice>1980</choice>
+      <choice>2000</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>What symbol marks the beginning of the pilgrimage?</wording>
+    <choices>
+      <choice>The marshes</choice>
+      <choice correct="yes">The Simpecado</choice>
+      <choice>The hermitage</choice>
+      <choice>The drummers</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>What is the name of the route that crosses Doñana?</wording>
+    <choices>
+      <choice>Royal Path</choice>
+      <choice>Sacred Trail</choice>
+      <choice correct="yes">Moguer Path</choice>
+      <choice>White Route</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>Which musical instrument traditionally accompanies pilgrims?</wording>
+    <choices>
+      <choice>Trumpet</choice>
+      <choice>Tambourine</choice>
+      <choice>Bagpipe</choice>
+      <choice correct="yes">Drum and flute</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>What is the name of the nighttime procession before Pentecost Monday?</wording>
+    <choices>
+      <choice>Via Lucis</choice>
+      <choice>Rosary of Dawn</choice>
+      <choice correct="yes">Rosary of the Alba</choice>
+      <choice>Way of the Cross</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>In what year was the Mother Brotherhood of Almonte founded?</wording>
+    <choices>
+      <choice>1602</choice>
+      <choice correct="yes">1640</choice>
+      <choice>1750</choice>
+      <choice>1820</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>What event marks the end of the pilgrimage of El Rocío?</wording>
+    <choices>
+      <choice correct="yes">The Virgin's procession</choice>
+      <choice>Departure of carts</choice>
+      <choice>Angelus prayer</choice>
+      <choice>The Rosary</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>What natural region hosts El Rocío?</wording>
+    <choices>
+      <choice>El Andévalo</choice>
+      <choice>The Countryside</choice>
+      <choice correct="yes">Marshlands of the Guadalquivir</choice>
+      <choice>The Mountains</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>How many days does the pilgrimage of El Rocío usually last?</wording>
+    <choices>
+      <choice correct="yes">Four</choice>
+      <choice>One</choice>
+      <choice>Three</choice>
+      <choice>Ten</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>Who are the people that walk or ride during the pilgrimage?</wording>
+    <choices>
+      <choice>Tourists</choice>
+      <choice>Soldiers</choice>
+      <choice>Students</choice>
+      <choice correct="yes">Pilgrims (rocieros)</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>What kind of songs are traditional during the pilgrimage?</wording>
+    <choices>
+      <choice correct="yes">Rocío Sevillanas</choice>
+      <choice>Saetas</choice>
+      <choice>Sailor songs</choice>
+      <choice>Christmas carols</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>When does the Virgin of El Rocío come out in procession?</wording>
+    <choices>
+      <choice>Holy Thursday</choice>
+      <choice>Pentecost Monday</choice>
+      <choice correct="yes">Early morning of Monday</choice>
+      <choice>Sunday afternoon</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>What is the traditional women’s outfit for El Rocío?</wording>
+    <choices>
+      <choice>Short pants</choice>
+      <choice>Bullfighting suit</choice>
+      <choice correct="yes">Flamenco dress</choice>
+      <choice>White robe</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>What symbol do the brotherhoods carry at the front of their pilgrimage?</wording>
+    <choices>
+      <choice correct="yes">Simpecado</choice>
+      <choice>Lantern</choice>
+      <choice>Flag</choice>
+      <choice>Guide cross</choice>
+    </choices>
+  </question>
+</test>

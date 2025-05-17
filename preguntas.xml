@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) "no">
+]>
+<test>
+  <question id="1">
+    <wording>¿En qué municipio se celebra la romería del Rocío?</wording>
+    <choices>
+      <choice correct="yes">Almonte</choice>
+      <choice>Huelva</choice>
+      <choice>Sevilla</choice>
+      <choice>El Rocío</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>¿Qué día suele celebrarse la romería del Rocío?</wording>
+    <choices>
+      <choice>Viernes Santo</choice>
+      <choice correct="yes">Domingo de Pentecostés</choice>
+      <choice>1 de noviembre</choice>
+      <choice>Domingo de Ramos</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>¿Cómo se llama la Virgen del Rocío popularmente?</wording>
+    <choices>
+      <choice>Virgen del Camino</choice>
+      <choice>Virgen del Mar</choice>
+      <choice correct="yes">La Blanca Paloma</choice>
+      <choice>La Estrella</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>¿Qué hermandad realiza el "salto de la reja" tradicionalmente?</wording>
+    <choices>
+      <choice>Triana</choice>
+      <choice correct="yes">Almonte</choice>
+      <choice>Huelva</choice>
+      <choice>Gines</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>¿Cuál es el nombre original de la aldea donde está el santuario?</wording>
+    <choices>
+      <choice>La Cañada</choice>
+      <choice>Monteverde</choice>
+      <choice correct="yes">Las Rocinas</choice>
+      <choice>La Palma</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>¿Qué significa “romería”?</wording>
+    <choices>
+      <choice>Festividad local</choice>
+      <choice>Camino hacia Roma</choice>
+      <choice correct="yes">Peregrinación religiosa</choice>
+      <choice>Celebración de primavera</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>¿Cuándo fue coronada canónicamente la Virgen del Rocío?</wording>
+    <choices>
+      <choice correct="yes">1919</choice>
+      <choice>1890</choice>
+      <choice>1980</choice>
+      <choice>2000</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>¿Qué elemento representa el inicio del camino del Rocío?</wording>
+    <choices>
+      <choice>Las marismas</choice>
+      <choice correct="yes">El Simpecado</choice>
+      <choice>La ermita</choice>
+      <choice>Los tamborileros</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>¿Qué nombre recibe el camino que atraviesa Doñana?</wording>
+    <choices>
+      <choice>Vereda Real</choice>
+      <choice>Sendero Sagrado</choice>
+      <choice correct="yes">Camino de Moguer</choice>
+      <choice>Ruta Blanca</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>¿Qué instrumento musical acompaña a los peregrinos tradicionalmente?</wording>
+    <choices>
+      <choice>Trompeta</choice>
+      <choice>Pandereta</choice>
+      <choice>Gaita</choice>
+      <choice correct="yes">Tamboril</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>¿Cómo se llama la procesión nocturna antes del lunes de Pentecostés?</wording>
+    <choices>
+      <choice>Via Lucis</choice>
+      <choice>Rosario de la Aurora</choice>
+      <choice correct="yes">Rosario del Alba</choice>
+      <choice>Vía Crucis</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>¿Qué año se fundó la Hermandad Matriz de Almonte?</wording>
+    <choices>
+      <choice>1602</choice>
+      <choice correct="yes">1640</choice>
+      <choice>1750</choice>
+      <choice>1820</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>¿Qué evento marca el final de la romería del Rocío?</wording>
+    <choices>
+      <choice correct="yes">La procesión de la Virgen</choice>
+      <choice>La salida de las carretas</choice>
+      <choice>El rezo del Ángelus</choice>
+      <choice>El Rosario</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>¿Qué comarca natural acoge El Rocío?</wording>
+    <choices>
+      <choice>El Andévalo</choice>
+      <choice>La Campiña</choice>
+      <choice correct="yes">Las Marismas del Guadalquivir</choice>
+      <choice>La Sierra</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>¿Cuántos días suele durar la romería del Rocío?</wording>
+    <choices>
+      <choice correct="yes">Cuatro</choice>
+      <choice>Uno</choice>
+      <choice>Tres</choice>
+      <choice>Diez</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>¿Qué grupo de peregrinos hace el camino a pie y a caballo?</wording>
+    <choices>
+      <choice>Turistas</choice>
+      <choice>Militares</choice>
+      <choice>Estudiantes</choice>
+      <choice correct="yes">Rocieros</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>¿Qué cantares son tradicionales durante el camino del Rocío?</wording>
+    <choices>
+      <choice correct="yes">Sevillanas rocieras</choice>
+      <choice>Saetas</choice>
+      <choice>Coplas marineras</choice>
+      <choice>Villancicos</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>¿Qué día sale la Virgen del Rocío en procesión?</wording>
+    <choices>
+      <choice>Jueves Santo</choice>
+      <choice>Lunes de Pentecostés</choice>
+      <choice correct="yes">Madrugada del Lunes</choice>
+      <choice>Domingo por la tarde</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>¿Cuál es el traje típico de las mujeres durante el Rocío?</wording>
+    <choices>
+      <choice>Pantalón corto</choice>
+      <choice>Traje de luces</choice>
+      <choice correct="yes">Traje de flamenca</choice>
+      <choice>Habito blanco</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>¿Qué símbolo llevan las hermandades al frente de sus peregrinaciones?</wording>
+    <choices>
+      <choice correct="yes">Simpecado</choice>
+      <choice>Farol</choice>
+      <choice>Bandera</choice>
+      <choice>Cruz de guía</choice>
+    </choices>
+  </question>
+</test>
